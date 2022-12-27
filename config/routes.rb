@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'welcome/index'
   devise_for :users, skip: [:registrations], controllers: {
     session: 'users/session',
     password: 'users/password',
