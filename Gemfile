@@ -77,3 +77,5 @@ end
 gem "devise", "~> 4.8"
 
 gem "devise-tailwinded", "~> 0.1.5"
+
+gem 'friendly_id', '~> 5.4.0'
