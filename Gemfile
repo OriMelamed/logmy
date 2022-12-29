@@ -79,3 +79,31 @@ gem "devise", "~> 4.8"
 gem "devise-tailwinded", "~> 0.1.5"
 
 gem 'friendly_id', '~> 5.4.0'
+gem "faker", "~> 3.1"
+
+group :tools do
+  gem "rubocop", require: false
+  gem "rubocop-performance", require: false
+  gem "rubocop-rails", require: false
+  gem "rubocop-rspec", require: false
+end
+
+group :test do
+  gem "capybara"
+  gem "shoulda-matchers"
+  gem "vcr"
+  gem "webmock", require: "webmock/rspec"
+end
+
+group :development, :test do
+  gem "factory_bot_rails"
+  gem "rspec-rails"
+end
+
+group :development do
+  gem "guard-bundler"
+  gem "guard-rspec"
+  gem "terminal-notifier-guard"
+end
+
+gem "avo", "~> 2.22"
