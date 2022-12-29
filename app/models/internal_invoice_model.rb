@@ -1,0 +1,2 @@
+class InternalInvoiceModel < ApplicationRecord
+end
