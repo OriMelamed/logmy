@@ -1,6 +1,6 @@
 # fly.toml file generated for login1 on 2023-01-14T15:18:33+02:00
 
-app = "login1"
+app = "myloginapp"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
